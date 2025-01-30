@@ -2,6 +2,12 @@
 
 This is a python script that logs into IISER Pune LAN automatically (in daemon mode) or when required.
 
+## Dependencies
+
+This program stores and accesses credentials locally, a compatible system keyring is required for this to work correctly, the compatibility status is give here: https://pypi.org/project/keyring/. GNOME and KDE keyrings are supported.
+
+To optionally send notifications, `notify-send` is required to be installed.
+
 ## Installation
 
 ### Flakes
